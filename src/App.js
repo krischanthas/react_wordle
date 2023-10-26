@@ -105,7 +105,6 @@ function Line({ guess, lineSubmitted, solution }) {
     let className = "tile";
 
     if (lineSubmitted) {
-      console.log(solution);
       if (char === solution[i]) {
         className += " correct";
       } else if (solution.includes(char)) {
